@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+html {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+nav a{
+    margin-left: 15px;
+}
+
+/*about section*/
+#about{
+	padding-top:100px;
+}
+#about .about {
+	flex-direction: column-reverse;
+	max-width: 1200px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+#about .col-left {
+	width: 250px;
+	height: 320px;
+}
+
+#about .col-right {
+	width: 100%;
+}
+
+#about .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+
+#about .col-right p {
+	margin-bottom: 20px;
+}
+
+#about h5{
+    padding-top: 60px;
+	color:white;
+	font-weight: bold;
+}
+
+#about p{
+	text-align: left;
+	margin-left: 34px;
+	margin-top:30px;
+	font-size: 15px;
+	margin-right: 25px;
+}
+
+/*home section*/
+#home .home {
+	flex-direction: column-reverse;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#home .col-left {
+	width: 250px;
+	height: 240px;
+}
+
+#home .col-right {
+	width: 100%;
+}
+
+#home .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+
+#home .col-right p {
+	margin-bottom: 20px;
+}
+
+#home img{
+    margin-top: 90px;
+    border: 7px solid burlywood;
+}
+
+#home h4{
+    margin-left: 550px;
+    margin-top: 40px;
+	font-size: 20px;
+}
+
+#home button{
+    margin-left: 764px;
+    margin-top: 40px;
+	
+}
+
+/*title sections*/
+.section-title1{
+    color:burlywood;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 500px;
+}
+
+.section-title2{
+    color:burlywood;
+	margin-top: 200px;
+}
+
+/*project section*/
+#project .project {
+	flex-direction: column-reverse;
+	max-width: 1200px;
+	margin: 0 auto;
+    text-align: center;
+}
+
+#project .col-left {
+	width: 250px;
+	height: 100px;
+}
+
+#project .col-right {
+	width: 100%;
+}
+
+#project .col-right h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+
+#project .col-right p {
+	margin-bottom: 20px;
+}
+
+#project p{
+	text-align: left;
+}
+
+#project h5{
+	color:white;
+	padding-top:50px;
+}
+
+#p3{
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#p4{
+	font-weight: bold;
+	padding-top: 80px;
+}
+
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  img{
+	border: 7px solid burlywood;
+  }
+  .text-center{
+	  color:white;
+  }
+
+  footer{
+	  margin-top: 100px;
+  }
+  
