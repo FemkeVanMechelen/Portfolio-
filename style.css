@@ -58,7 +58,6 @@ nav a{
 	text-align: left;
 	margin-left: 34px;
 	margin-top:30px;
-	font-size: 15px;
 	margin-right: 25px;
 }
 
@@ -157,8 +156,8 @@ nav a{
 }
 
 #p3{
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 #p4{
 	font-weight: bold;
